@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Prueba de pichichis</title>
+
+    <link href="prueba.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+            <svg style="top:auto;" xmlns="" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Football</title></svg>
+            <span class="fs-4">Best players in  the world </span>
+        </a>
+
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Golden boot</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">The best</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">11 Gladiators</a>
+            <a class="py-2 link-body-emphasis text-decoration-none" href="#">Career</a>
+        </nav>
+    </div>
+    <div>
+        <input type="number" name="year" id='añoGoleador' />
+        <button type="button" id="goldenBoot" class="btn btn-light">Who has won?</button>
+        <button type="button" id="reload" class="btn btn-dark">Reset</button>
+
+    </div>
+
+    <style>
+        body {
+            background-image: url('backgroundimage.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+
+    <div class="card" id="CR7-image" style="width: 18rem; display:none">
+        <img src="cr7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Cr7</h5>
+            <p class="card-text"></p>
+            <a href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo" class="btn btn-primary">CR7</a>
+        </div>
+    </div>
+
+    <div class="card" id="messi-image" style="width: 18rem; display:none">
+        <img src="LeoMessi20092010_pic_fcb-arsenal62.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Messi</h5>
+            <p class="card-text"></p>
+            <a href="https://messi.com/" class="btn btn-primary">Messi</a>
+        </div>
+    </div>
+
+    <div class="card" id="immobile-image" style="width: 18rem; display:none">
+        <img src="immobile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Immobile</h5>
+            <p class="card-text"></p>
+            <a href="https://es.wikipedia.org/wiki/Ciro_Immobile" class="btn btn-primary">Immobile</a>
+        </div>
+    </div>
+
+    <div class="card" id="suarez-image" style="width: 18rem; display:none">
+        <img src="suarez.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Suarez</h5>
+            <p class="card-text"></p>
+            <a href="https://es.wikipedia.org/wiki/Luis_Su%C3%A1rez_(futbolista)" class="btn btn-primary">Suarez</a>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="prueba.js"></script>
+</body>
+
+</html>
